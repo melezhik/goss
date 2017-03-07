@@ -24,8 +24,8 @@ Goss scenarios get run as sparrow tasks:
     $ sparrow task add audit nginx goss
     $ sparrow task ini audit/nginx 
 
-
-    <goss>
+    action validate
+    goss <<HERE
 
     port:
       tcp:80:
@@ -40,7 +40,7 @@ Goss scenarios get run as sparrow tasks:
       nginx:
         running: true
     
-    </goss>
+    HERE
 
     $ sparrow task run audit/nginx
 
