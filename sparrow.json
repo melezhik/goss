@@ -2,5 +2,6 @@
   "name" : "goss",
   "version" : "0.0.1",
   "description" : "goss wrapper",
-  "category" : "applications"
+  "category" : "applications",
+  "url" : "https://github.com/melezhik/goss"
 }
